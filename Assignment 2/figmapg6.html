@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future of Science</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            text-align: center;
+            background-color: #1e2a38;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        .testimonial-section {
+            max-width: 900px;
+            margin: 50px auto;
+            text-align: center;
+            position: relative;
+        }
+
+        .testimonial-text {
+            font-size: 24px;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .testimonial-author img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .testimonial-author div {
+            text-align: left;
+        }
+
+        .testimonial-author div h4 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .testimonial-author div p {
+            margin: 0;
+            font-size: 14px;
+            color: #bbb;
+        }
+
+        .testimonial-controls {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            transform: translateY(-50%);
+        }
+
+        .testimonial-controls button {
+            background: none;
+            border: 2px solid white;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 50%;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .testimonial-dots {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .dot {
+            width: 8px;
+            height: 8px;
+            background-color: #bbb;
+            border-radius: 50%;
+        }
+
+        .dot.active {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <section class="testimonial-section">
+        <div class="testimonial-text">
+            “This platform has transformed my understanding of science. The virtual experiments are incredibly engaging!”
+        </div>
+        <div class="testimonial-author">
+            <img src="user-avatar.jpg" alt="User Avatar">
+            <div>
+                <h4>Jane Doe</h4>
+                <p>Science Educator, Tech Academy</p>
+            </div>
+        </div>
+        <div class="testimonial-controls">
+            <button>&larr;</button>
+            <button>&rarr;</button>
+        </div>
+        <div class="testimonial-dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </section>
+</body>
+</html>
